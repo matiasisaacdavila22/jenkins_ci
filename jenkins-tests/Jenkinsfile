@@ -16,7 +16,7 @@ pipeline {
     }
     stage('Run tests') {
       steps {
-        sh 'cd jenkins-tests && npm t'
+        sh 'cd jenkins-tests && npm test'
       }
     }
   }
